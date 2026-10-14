@@ -1,0 +1,29 @@
+# Day 2: 4-Bit Ripple Carry Adder
+
+## Objective
+To design and simulate a 4-bit Ripple Carry Adder using Verilog HDL.
+
+## Tools Used
+- Ubuntu Linux
+- Icarus Verilog
+- GTKWave
+
+## Working Principle
+A 4-bit Ripple Carry Adder consists of four Full Adders connected in series. The carry output from each Full Adder is passed to the next stage.
+
+## Simulation
+The design was compiled and simulated using Icarus Verilog. The output was checked for different binary input combinations.
+
+## Test Results
+
+| A | B | Cin | Cout | Sum |
+|---|---|---|---|---|
+| 0011 | 0101 | 0 | 0 | 1000 |
+| 1111 | 0001 | 0 | 1 | 0000 |
+| 1010 | 0101 | 1 | 1 | 0000 |
+
+## Learning Outcome
+- Understood Full Adder connections.
+- Learned carry propagation.
+- Practiced Verilog simulation using Icarus Verilog.
+- Viewed signal waveforms using GTKWave.
